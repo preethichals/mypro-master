@@ -1,10 +1,15 @@
+import { Badge } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 function Producty({ img, title, brand, newprice, oldprice }) {
   return (
-    <Card style={{ width: "max-width:100%" }} className="col p-3 m-2">
+    <Card
+      style={{ width: "max-width:100%" }}
+      className="col p-3 m-2"
+    >
       <Card.Img variant="top" src={img} />
+
       <Card.Body>
         <Card.Title>{brand}</Card.Title>
         <Card.Text>{title}</Card.Text>

@@ -14,7 +14,7 @@ export default [
     title: "Cropped Trucker Jacket",
     offerPrice: 1034,
     mrp: 3099,
-    url: "../Images/gallery-03.jpg",
+    url: "../Images/gallery-06.jpg",
   },
   {
     id: 3,

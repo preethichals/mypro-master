@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 function IndividualIntervalsExample() {
   return (
-    <Carousel fade pause={false} >
+    <Carousel fade pause={false}>
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
@@ -17,7 +17,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src="./Images/slide-01.jpg"
+          src="./Images/slide-01 2.jpg"
           alt="Second slide"
         />
         <Carousel.Caption>
@@ -28,7 +28,7 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={2500}>
         <img
           className="d-block w-100"
-          src="./Images/slide-02.jpg"
+          src="./Images/slide-01 2.jpg"
           alt="Third slide"
         />
         <Carousel.Caption>
